@@ -4,6 +4,10 @@ restaurante_praca = Restaurante('praça', 'Gourmet')
 restaurante_mexicano = Restaurante('Mexican Food', 'Mexicana')
 restaurante_japones = Restaurante('Japa', 'Japonesa')
 
+restaurante_praca.receber_avaliacao('Italo', 10)
+restaurante_praca.receber_avaliacao('Ana', 8)
+restaurante_praca.receber_avaliacao('Stenio', 5)
+
 restaurante_mexicano.alternar_estado()
 
 def main():
